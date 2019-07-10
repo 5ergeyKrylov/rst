@@ -1,24 +1,24 @@
 PREFIX = /usr/local
 
-kjv: kjv.sh kjv.awk kjv.tsv
-	cat kjv.sh > $@
+rst: rst.sh rst.awk rst.tsv
+	cat rst.sh > $@
 	echo 'exit 0' >> $@
 	echo '#EOF' >> $@
-	tar cz kjv.awk kjv.tsv >> $@
+	tar cz rst.awk rst.tsv >> $@
 	chmod +x $@
 
-test: kjv.sh
-	shellcheck -s sh kjv.sh
+test: rst.sh
+	shellcheck -s sh rst.sh
 
 clean:
-	rm -f kjv
+	rm -f rst
 
-install: kjv
+install: rst
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
-	cp -f kjv $(DESTDIR)$(PREFIX)/bin
-	chmod 755 $(DESTDIR)$(PREFIX)/bin/kjv
+	cp -f rst $(DESTDIR)$(PREFIX)/bin
+	chmod 755 $(DESTDIR)$(PREFIX)/bin/rst
 
 uninstall:
-	rm -f $(DESTDIR)$(PREFIX)/bin/kjv
+	rm -f $(DESTDIR)$(PREFIX)/bin/rst
 
 .PHONY: test clean install uninstall
