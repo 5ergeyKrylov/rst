@@ -2,7 +2,7 @@
 
 Read the Word of God from your terminal
 
-Forked from [https://github.com/bontibon/kjv.git](https://github.com/bontibon/kjv.git) [https://github.com/lukesmithxyz/kjv.git](https://github.com/lukesmithzyx/kjv.git) but using the Russian Synodal Translation
+Forked from [https://github.com/lukesmithxyz/kjv.git](https://github.com/lukesmithzyx/kjv.git) originally forked from [https://github.com/bontibon/kjv.git](https://github.com/bontibon/kjv.git) but using the Russian Synodal Translation
 
 ## Usage
 
@@ -37,7 +37,7 @@ Forked from [https://github.com/bontibon/kjv.git](https://github.com/bontibon/kj
 
 rst can be built by cloning the repository and then running make:
 
-    git clone https://github.com/lukesmithxyz/rst.git
+    git clone https://github.com/5ergeyKrylov/rst.git
     cd rst
     sudo make install
 
