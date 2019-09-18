@@ -2,7 +2,7 @@
 
 Read the Word of God from your terminal
 
-Forked from [https://github.com/lukesmithxyz/kjv.git](https://github.com/lukesmithzyx/kjv.git) originally forked from [https://github.com/bontibon/kjv.git](https://github.com/bontibon/kjv.git) but using the Russian Synodal Translation
+Forked from [https://github.com/lukesmithxyz/kjv.git](https://github.com/lukesmithxyz/kjv.git) originally forked from [https://github.com/bontibon/kjv.git](https://github.com/bontibon/kjv.git) but using the Russian Synodal Translation
 
 ## Usage
 
